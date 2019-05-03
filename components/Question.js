@@ -1,3 +1,7 @@
+// this part was copy from https://snack.expo.io/rkeH0IaMN 
+// this is components for FAQScreen.js
+// When we customize a Component, we generally inherit from the abstract base class React.Component and need to implement the render() method. According to the render() method, the React Component is composed of React Element.
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -45,7 +49,9 @@ export class Question extends React.Component {
                     </View>
                     :
                     <Text />
-                }
+                } 
+
+
                 {/* Optional ACTION */}
                 {this.props.actionText ?
                     <TouchableOpacity

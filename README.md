@@ -3,3 +3,5 @@ The final project of CIDM 4385 is to create a mobile app for edsigcon.org. Imple
 
 # Firebase API key
 This file needs to update it's API key in the LinksScreen.js file in order for the firebase that presents the speaker works. I have removed the key from the project for security reasons.
+
+# Commit

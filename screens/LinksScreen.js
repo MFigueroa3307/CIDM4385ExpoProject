@@ -1,3 +1,8 @@
+// The constructor for a React component is called before it is mounted. When implementing the constructor for a React.Component subclass, you should call super(props) before any other statement. Otherwise, this.props will be undefined in the constructor, which can lead to bugs.
+
+/* A majority of this code is taken from Dr. Babb's expo firebase tutorial. The purpose of this code is to pull data from our firebase tutorial
+and create a list of the speakers at the expo event*/
+
 import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 

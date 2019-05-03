@@ -5,7 +5,8 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { Constants, WebBrowser } from 'expo';
-import {FAQ,Question} from '../components/Question';
+import {FAQ} from '../components/Question';
+
 
 // define bullets
 const bullets = [

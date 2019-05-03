@@ -1,3 +1,6 @@
+/* This component was created using the default layout when creating an Expo file.
+From https://snack.expo.io/rkq49U-IE we used their method to pull the social media items and buttons */
+
 import React from 'react';
 import {
   Image,

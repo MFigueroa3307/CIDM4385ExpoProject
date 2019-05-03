@@ -1,4 +1,5 @@
-
+/* We took code from https://snack.expo.io/rJKf989EV , The purpose of this code is provide a button with a link to google maps. The user will be able
+to click the link and google maps will be set up to the coordinants of the hotel that the convention is being hosted at. */
 
 import getDirections from 'react-native-google-maps-directions';
 import React, { Component } from 'react';
