@@ -1,9 +1,13 @@
+// We took this code from https://snack.expo.io/rkeH0IaMN, the purpose of this code is provide FAQ screen in nav bar.
+// The User should able to visit FAQ when they click FAQ on nav bar. 
+// 
+
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { Constants, WebBrowser } from 'expo';
 import {FAQ,Question} from '../components/Question';
 
-// define some bullets
+// define bullets
 const bullets = [
   'Whats the price of admission?',
   'Whats transportation like?',
@@ -16,13 +20,13 @@ const action_example = () => {
       'https://github.com/'
     );
 }
-
+// the link which is open webBrowser
 const goTo = (link) => {
   WebBrowser.openBrowserAsync(
       link
     );
 }
-
+// list FAQ questions on page also set click link
 const questions = [
       {
         question:"How can I help you?",
@@ -39,7 +43,7 @@ const questions = [
       }
     ]
 
-
+// connect with components Qustion.js files and how text formal will show in app
 export default class FAQScreen extends React.Component {
   static navigationOptions = {
     header: null,
@@ -63,7 +67,7 @@ export default class FAQScreen extends React.Component {
     );
   }
 }
-
+// specific format parameter
 const styles = StyleSheet.create({
   container: {
     flex: 1,
